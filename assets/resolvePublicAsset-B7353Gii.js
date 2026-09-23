@@ -1,0 +1,1 @@
+function e(e=``){return`/${String(e).replace(/^\/+/,``)}`.replace(/([^:]\/)\/+/g,`$1`)}export{e as t};
