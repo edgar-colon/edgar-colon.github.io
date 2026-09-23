@@ -1,15 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
+  <!-- Página principal: Español -->
   <url>
     <loc>https://edgar-colon.mx/</loc>
-    <lastmod>2026-09-21</lastmod>
-    <changefreq>Weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-10-29T23:00:00-07:00</lastmod>
+    <xhtml:link rel="alternate" hreflang="es-MX"
+      href="https://edgar-colon.mx/" />
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://edgar-colon.mx/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://edgar-colon.mx/" />
+
+    <image:image>
+      <image:loc>https://edgar-colon.mx/images/edgar-colon/edgar-colon-01.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://edgar-colon.mx/images/edgar-colon/edgar-colon-02.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://edgar-colon.mx/images/edgar-colon/edgar-colon-envioclick-01.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://edgar-colon.mx/images/edgar-colon/edgar-colon-envioclick-02.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://edgar-colon.mx/images/edgar-colon/jackieLopez_edgar-colon.png</image:loc>
+      <image:title>Jackie Lopez (JackieeLopez)</image:title>
+      <image:caption>Retrato de Jackie Lopez (JackieeLopez) publicado en el perfil de Edgar Colón Barrientos (Edgar Colon)</image:caption>
+    </image:image>
   </url>
+
+  <!-- Página principal: Inglés -->
   <url>
-    <loc>https://edgar-colon.mx/education</loc>
-    <lastmod>2026-09-21</lastmod>
-    <changefreq>Monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://edgar-colon.mx/en/</loc>
+    <lastmod>2026-10-29T23:00:00-07:00</lastmod>
+    <xhtml:link rel="alternate" hreflang="es-MX"
+      href="https://edgar-colon.mx/" />
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://edgar-colon.mx/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://edgar-colon.mx/" />
+
+    <image:image>
+      <image:loc>https://edgar-colon.mx/images/edgar-colon/edgar-colon-01.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://edgar-colon.mx/images/edgar-colon/edgar-colon-02.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://edgar-colon.mx/images/edgar-colon/edgar-colon-envioclick-01.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://edgar-colon.mx/images/edgar-colon/edgar-colon-envioclick-02.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://edgar-colon.mx/images/edgar-colon/jackieLopez_edgar-colon.png</image:loc>
+      <image:title>Jackie Lopez (JackieeLopez)</image:title>
+      <image:caption>Portrait of Jackie Lopez (JackieeLopez) published on the profile of Edgar Colón Barrientos (Edgar Colon)</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Educación: Español -->
+  <url>
+    <loc>https://edgar-colon.mx/education/</loc>
+    <xhtml:link rel="alternate" hreflang="es-MX"
+      href="https://edgar-colon.mx/education/" />
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://edgar-colon.mx/en/education/" />
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://edgar-colon.mx/education/" />
+  </url>
+
+  <!-- Educación: Inglés -->
+  <url>
+    <loc>https://edgar-colon.mx/en/education/</loc>
+    <xhtml:link rel="alternate" hreflang="es-MX"
+      href="https://edgar-colon.mx/education/" />
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://edgar-colon.mx/en/education/" />
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://edgar-colon.mx/education/" />
   </url>
 </urlset>
