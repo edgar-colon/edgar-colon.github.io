@@ -1,0 +1,1 @@
+import{X as e}from"./BaseIcon-CoweoE1W.js";var t=e(!1);function n(){function e(){t.value=!0}function n(){t.value=!1}return{isCommentOpen:t,openComment:e,closeComment:n}}export{n as t};

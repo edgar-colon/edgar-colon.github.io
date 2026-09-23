@@ -1,2 +1,36 @@
-/education    /index.html   200
-/education/   /index.html   200
+# Reescrituras para hostings tipo Cloudflare Pages / Netlify.
+#
+# En GitHub Pages (el hosting actual) este archivo es INERTE: lo que hace que
+# cada ruta responda sin 404 son los documentos que genera el plugin
+# localeRouteFallback de vite.config.js, más dist/404.html como respaldo.
+# Se mantiene sincronizado por si el hosting cambia.
+# Ver specs/002-real-section-routes/research.md §12.
+
+# Español canónico (sin prefijo)
+/inicio           /index.html              200
+/habilidades      /index.html              200
+/experiencia      /index.html              200
+/formacion        /index.html              200
+/contacto         /index.html              200
+/descargar-cv     /index.html              200
+/education        /index.html              200
+
+# Español explícito (alias /es → mismo documento en español)
+/es               /index.html              200
+/es/inicio        /index.html              200
+/es/habilidades   /index.html              200
+/es/experiencia   /index.html              200
+/es/formacion     /index.html              200
+/es/contacto      /index.html              200
+/es/descargar-cv  /index.html              200
+/es/education     /index.html              200
+
+# Inglés
+/en               /en/index.html           200
+/en/inicio        /en/index.html           200
+/en/habilidades   /en/index.html           200
+/en/experiencia   /en/index.html           200
+/en/formacion     /en/index.html           200
+/en/contacto      /en/index.html           200
+/en/descargar-cv  /en/index.html           200
+/en/education     /en/education/index.html 200
